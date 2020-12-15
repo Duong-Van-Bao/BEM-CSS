@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h3 class="heading">Saved!</h3>
+        <p class="desc">looks like you got a great idea.</p>
+        <div class="btn">OK, cool</div>
+    </div>
+
+    <!-- BEM -->
+    <div class="card card__success">
+        <h3 class="card__heading">Saved!</h3>
+        <p class="card__desc">looks like you got a great idea.</p>
+        <div class="card__btn">OK, cool</div>
+    </div>
+
+    <div class="card card__error">
+        <h3 class="card__heading">Saved!</h3>
+        <p class="card__desc">looks like you got a great idea.</p>
+        <div class="card__btn card__btn--size-l">OK, cool</div>
+    </div>
+</body>
+
+</html>

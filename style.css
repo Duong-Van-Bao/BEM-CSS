@@ -1,0 +1,39 @@
+
+
+.card{
+
+}
+.card .heading{
+
+}
+.card .desc{
+
+}
+.card .btn{
+
+}
+/* code theo kiểu đi từ cha vào */
+
+/* BEM */
+.card{
+
+}
+.card__success ..card__btn{
+   /* Mau xanh */
+}
+
+.card__error .card__btn{
+  /* Mau do */
+}
+.card__heading{
+
+}
+.card___desc{
+
+}
+.card__btn{
+
+}
+.card__btn--size-l{
+    
+}
